@@ -3,10 +3,30 @@
     background-color: rgb(218, 13, 13);
     color: white;
     border: none;
-    height: 36px;
-    width: 108px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 5px;
     cursor: pointer;
+    transition: font-size 0.15s linear,
+      opacity 0.15s linear;
+  }
+  
+  .subscribe-button:hover {
+    font-size: x-large;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .subscribe-button:active {
+    opacity: 0.8;
   }
 
   .join-button{
@@ -14,11 +34,22 @@
     border-color: rgb(18, 116, 201);
     border-style: solid;
     color: rgb(18, 116, 201);
-    height: 40px;
-    width: 80px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-width: 1px;
     border-radius: 3px;
     cursor: pointer;
+  }
+
+  .join-button:hover {
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .tweet-button{
@@ -41,6 +72,7 @@
     height: 40px;
     width: 120px;
     margin-right: 50px;
+    cursor: pointer;
   }
 
   .amazon-button{
@@ -51,6 +83,7 @@
     height: 40px;
     width: 200px;
     margin-right: 50px;
+    cursor: pointer;
 
   }
 
@@ -64,6 +97,7 @@
     font-size: large;
     font-weight: bold;
     margin-right: 50px;
+    cursor: pointer;
   }
 
   .bootstrap-button1{
@@ -76,6 +110,7 @@
     height: 50px;
     width: 150px;
     margin-right: 10px;
+    cursor: pointer;
   }
 
   .bootstrap-button2 {
@@ -88,6 +123,7 @@
     border-radius: 4px;
     height: 50px;
     width: 140px;
+    cursor: pointer;
   }
   
   .linkedin-button1 {
@@ -99,7 +135,19 @@
     font-size: large;
     height: 55px;
     width: 310px;
-    margin-right: 10px;  
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s linear,
+      color 0.5s linear;
+  }
+
+  .linkedin-button1:hover {
+    background-color: white;
+    color: rgb(10, 102, 194);
+  }
+
+  .linkedin-button1:active {
+    opacity: 0.8;
   }
 
   .linkedin-button2 {
@@ -112,10 +160,23 @@
     font-size: large;
     height: 55px;
     width: 110px;
+    cursor: pointer;
+    transition: background-color 0.5s linear,
+      color 0.5s linear;
+  }
+  .linkedin-button2:hover {
+    background-color: rgb(10, 102, 194);
+    color: white;
+  }
+
+  .linkedin-button2:active {
+    opacity: 0.8;
   }
 
 
 </style>
+
+<!-- Transition must be applied in the class. -->
 
 <button class = "subscribe-button">
   SUBSCRIBE

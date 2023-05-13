@@ -33,7 +33,18 @@ href = "https://www.youtube.com" target="_blank" >Link to Youtube
   .redirect {
     color: rgb(0, 113, 113);
     font-size: large;
+    transition: opacity 0.15s linear;
   }
+
+  .redirect:hover {
+    opacity: 0.8;
+    color: rgb(241, 81, 17);
+  }
+
+  .redirect:active {
+    opacity: 0.7;
+  }
+
   .heading {
     color: black;
     font-size: 25px;;
@@ -58,9 +69,27 @@ href = "https://www.youtube.com" target="_blank" >Link to Youtube
     color: black;
     border: none;
     border-radius: 15px;
-    height: 35px;
-    width: 120px;
     margin-right: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: opacity 0.15s linear,
+      box-shadow 0.15s linear;
+    vertical-align: top;
+  }
+
+  .amazon-button1:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  .amazon-button1:hover {
+    opacity: 0.8;
+  }
+
+  .amazon-button1:active {
+    opacity: 0.7;
   }
 
   .amazon-button2{
@@ -68,10 +97,28 @@ href = "https://www.youtube.com" target="_blank" >Link to Youtube
     color: black;
     border: none;
     border-radius: 15px;
-    height: 35px;
-    width: 120px;
-
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: opacity 0.15s linear,
+      box-shadow 0.15s;
+    vertical-align: top;
   }
+
+  .amazon-button2:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  .amazon-button2:hover {
+    opacity: 0.8;
+  }
+
+  .amazon-button2:active {
+    opacity: 0.7;
+  }
+
 </style>
 
 
