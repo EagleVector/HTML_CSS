@@ -1,0 +1,96 @@
+.a5 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.b5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.b5-offer {
+  font-style: italic;
+  color: red;
+  font-size: 30px;
+  margin-top: 2px;
+  margin-bottom: 50px;
+}
+
+.c5-1 {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+.c5-2 {
+  font-size: 20px;
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 2px;
+  margin-bottom: 30px;
+}
+
+.c5-3 {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 280px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.c5-4 {
+  color: white;
+  font-size: 15px;
+  background-color: rgb(28, 142, 28);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  transition: opacity 0.15s linear;
+}
+
+.c5-4:hover {
+  opacity: 0.8;
+}
+
+.d5-1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.d5-2 {
+  font-size: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.d5-3 {
+  font-size: 20px;
+  color: blue;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  transition: text-decoration 0.15s linear;
+  cursor: pointer;
+}
+
+.d5-3:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+}
